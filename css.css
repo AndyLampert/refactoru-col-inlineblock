@@ -1,0 +1,27 @@
+html {
+	background-color: lightgrey;
+}
+
+.main-container {
+	margin: 0 auto;
+	background-color: pink;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	border: 1px dotted blue;
+	text-align: center;
+	display: inline-block;
+	height: 400px;
+	width: 200px;
+	background-color: green;
+}
+
+.child {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+/* 50% of the element's height and width*/
